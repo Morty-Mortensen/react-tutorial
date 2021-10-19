@@ -1,0 +1,20 @@
+.company-item-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    height: 75px;
+}
+
+.company-item-logo {
+    height: 50px;
+    width: 50px;
+    pointer-events: none;
+    margin-right: 20px;
+}
+
+.company-item-border {
+    border-bottom: solid lightgray 1px;
+    width: 100%;
+    opacity: 40%;
+}
